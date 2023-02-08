@@ -1,6 +1,9 @@
 body{
   min-height: 100vh;
   position: relative;
+  /* padding-bottom: 100px; */
+  padding :100px 0;
+  height: auto;
 }
 
 .box{
@@ -9,7 +12,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 10%;
+  height: 100px;
 }
 
 header > div{
@@ -17,11 +20,16 @@ header > div{
   font-size: 30px;
 }
 
-main{
-  padding: 10%;
+header{
+  position: absolute;
+  top: 0;
 }
 
-
+main{
+  /* padding: 150px 100px 100px; */
+  /* min-height: 100vh; */
+  padding: 0 100px;
+}
 
 footer{
   position: absolute;
