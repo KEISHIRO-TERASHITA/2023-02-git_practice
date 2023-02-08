@@ -1,7 +1,6 @@
 body{
   min-height: 100vh;
   position: relative;
-  /* padding-bottom: 100px; */
   padding :100px 0;
   height: auto;
 }
@@ -26,8 +25,6 @@ header{
 }
 
 main{
-  /* padding: 150px 100px 100px; */
-  /* min-height: 100vh; */
   padding: 0 100px;
 }
 
